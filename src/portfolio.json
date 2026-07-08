@@ -1,0 +1,148 @@
+{
+  "developerProfile": {
+    "name": "Chinna Durai",
+    "title": "Senior Full-Stack Engineer & Architect",
+    "shortBio": "I craft robust full-stack applications, scalable cloud systems, and elegant digital experiences with focus on performance, safety, and modern engineering practices.",
+    "longBio": "I am a passionate software developer and solutions architect with over 8 years of professional experience building cloud-native applications. I specialize in designing highly performant React-based user interfaces and architecting secure Node.js microservices. My design philosophy is rooted in architectural honesty: creating clean, modular code bases that represent real-world reliability, without over-complicating workflows. I love turning complex logic into smooth, responsive, and accessible digital products.",
+    "location": "San Francisco, CA (Open to Remote)",
+    "email": "cmdurai1937@gmail.com",
+    "github": "https://github.com/durai1937",
+    "linkedin": "https://www.linkedin.com/in/chinna-durai-7b31111a3/",
+    "twitter": "https://twitter.com",
+    "resumeUrl": "#",
+    "aboutImageUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=600&h=600",
+    "stats": [
+      { "label": "Years of Experience", "value": "8+", "iconName": "Briefcase" },
+      { "label": "Production Projects", "value": "34", "iconName": "Code2" },
+      { "label": "Open Source Contribs", "value": "500+", "iconName": "GitFork" },
+      { "label": "Happy Clients", "value": "18", "iconName": "Award" }
+    ]
+  },
+  "projectsData": [
+    {
+      "id": "proj-1",
+      "title": "Aether Analytics: Real-time Cloud Metrics",
+      "description": "A cloud infrastructure monitoring dashboard that visualizes network load, serverless execution logs, and container ingress metrics in real-time. Features active WebSockets, interactive canvas timelines, and custom SVG visualizers.",
+      "category": "Full-stack",
+      "tags": ["React", "TypeScript", "Node.js", "D3.js", "WebSockets", "Tailwind CSS"],
+      "imageUrl": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=800&h=600",
+      "liveUrl": "#",
+      "githubUrl": "https://github.com",
+      "highlights": [
+        "Engineered a custom canvas render layer capable of plotting 50,000 datapoints at 60fps",
+        "Reduced memory footprint of client-side stream buffer by 42% using efficient binary schemas",
+        "Implemented full dark-mode palette featuring glowing telemetry accents and micro-interactions"
+      ],
+      "featured": true
+    },
+    {
+      "id": "proj-2",
+      "title": "Synapse IDE: Collaborative Code Workspace",
+      "description": "An in-browser collaborative text editor and virtual workspace equipped with syntax highlighting, an integrated terminal emulator, and shared cursor presence. Powered by serverless sandboxes and operational transform systems.",
+      "category": "AI & Data",
+      "tags": ["React", "Yjs", "WebRTC", "Monaco Editor", "Docker", "Tailwind CSS"],
+      "imageUrl": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&q=80&w=800&h=600",
+      "liveUrl": "#",
+      "githubUrl": "https://github.com",
+      "highlights": [
+        "Integrated WebRTC p2p connections for zero-latency concurrent workspace collaboration",
+        "Developed a custom Node.js server container runner utilizing isolated Docker sandboxes",
+        "Crafted a fluid layout supporting drag-and-drop file imports, file trees, and split panels"
+      ],
+      "featured": true
+    },
+    {
+      "id": "proj-3",
+      "title": "Veloce: High-Performance E-Commerce Engine",
+      "description": "A lightning-fast, headless commerce pipeline built for massive inventories. Utilizes modern static page rendering, intelligent edge-caching, and predictive prefetching for sub-second user transitions.",
+      "category": "Frontend",
+      "tags": ["Next.js", "React", "GraphQL", "Stripe SDK", "Tailwind CSS", "Framer Motion"],
+      "imageUrl": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?auto=format&fit=crop&q=80&w=800&h=600",
+      "liveUrl": "#",
+      "githubUrl": "https://github.com",
+      "highlights": [
+        "Achieved a perfect 100/100 Lighthouse performance score across mobile and desktop profiles",
+        "Configured serverless Edge Middlewares to handle geo-specific tax rates and localized inventories",
+        "Designed a custom multi-step checkout workflow with client-side optimistic UI state and secure API gateways"
+      ],
+      "featured": true
+    },
+    {
+      "id": "proj-4",
+      "title": "Hyperion: Serverless Deployment Plane",
+      "description": "A DevOps administration console that streamlines Docker container orchestrations across virtual private servers, featuring instant SSL provisioning, health-check alarms, and automated blue-green rolls.",
+      "category": "Cloud & DevOps",
+      "tags": ["React", "Go", "Kubernetes", "gRPC", "Prometheus", "Tailwind CSS"],
+      "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&q=80&w=800&h=600",
+      "liveUrl": "#",
+      "githubUrl": "https://github.com",
+      "highlights": [
+        "Designed a comprehensive network-topology viewer using declarative interactive layout algorithms",
+        "Established real-time alarm triggers via WebSockets connected to isolated cluster services",
+        "Integrated automated TLS certificate generation using Let’s Encrypt client protocols"
+      ],
+      "featured": false
+    }
+  ],
+  "experienceData": [
+    {
+      "id": "exp-1",
+      "role": "Lead Full-Stack Engineer",
+      "company": "Helix Cloud Solutions",
+      "location": "San Francisco, CA",
+      "duration": "2023 - Present",
+      "description": [
+        "Lead a distributed team of 6 engineers to design and scale Helix’s flagship enterprise cloud portal, serving over 150,000 active corporate users.",
+        "Architected modular React design systems with robust, tailwind-based components, accelerating new feature development timelines by 30%.",
+        "Rebuilt legacy API gateways into unified high-efficiency GraphQL pipelines, reducing overall payload transfer overhead by 48%."
+      ],
+      "skills": ["React", "TypeScript", "Node.js", "GraphQL", "AWS", "Docker", "CI/CD Pipelines"]
+    },
+    {
+      "id": "exp-2",
+      "role": "Senior Software Developer",
+      "company": "Aura Interactive",
+      "location": "Remote, CA",
+      "duration": "2020 - 2023",
+      "description": [
+        "Spearheaded the optimization of complex React canvas editors, yielding a massive performance improvement (from 24 FPS up to 60 FPS under high workloads).",
+        "Collaborated closely with visual designers to execute complex motion flows, UI transitions, and micro-interactions with pristine responsive fidelity.",
+        "Designed and engineered serverless backend microservices that parsed and processed millions of event logs per day using key-value cache strategies."
+      ],
+      "skills": ["React", "Framer Motion", "WebSockets", "Redis", "Express", "Jest", "Tailwind CSS"]
+    },
+    {
+      "id": "exp-3",
+      "role": "Software Engineer",
+      "company": "PixelForge Studios",
+      "location": "Austin, TX",
+      "duration": "2018 - 2020",
+      "description": [
+        "Developed responsive client applications, customer dashboards, and marketing engines using React, Redux, and modern CSS-in-JS frameworks.",
+        "Authored unit, integration, and end-to-end test suites using Jest and Cypress, raising total code coverage from 45% up to a stable 85%.",
+        "Maintained deployment playbooks, transitioning manual server architectures into automated Docker and Kubernetes setups."
+      ],
+      "skills": ["React", "Redux", "SASS", "Node.js", "PostgreSQL", "Docker", "Git & CI/CD"]
+    }
+  ],
+  "skillsData": [
+    { "name": "React / Next.js", "level": "Expert", "category": "frontend" },
+    { "name": "TypeScript", "level": "Expert", "category": "frontend" },
+    { "name": "Tailwind CSS", "level": "Expert", "category": "frontend" },
+    { "name": "Framer Motion / Animations", "level": "Expert", "category": "frontend" },
+    { "name": "D3.js / Canvas API", "level": "Advanced", "category": "frontend" },
+    { "name": "Node.js / Express", "level": "Expert", "category": "backend" },
+    { "name": "GraphQL / REST APIs", "level": "Expert", "category": "backend" },
+    { "name": "PostgreSQL / SQL", "level": "Advanced", "category": "backend" },
+    { "name": "Redis Caching", "level": "Advanced", "category": "backend" },
+    { "name": "WebSockets", "level": "Advanced", "category": "backend" },
+    { "name": "Docker / Containers", "level": "Expert", "category": "devops" },
+    { "name": "AWS Cloud Services", "level": "Advanced", "category": "devops" },
+    { "name": "CI/CD (GitHub Actions)", "level": "Advanced", "category": "devops" },
+    { "name": "Kubernetes", "level": "Intermediate", "category": "devops" },
+    { "name": "Git & Version Control", "level": "Expert", "category": "tools" },
+    { "name": "Jest / Testing Library", "level": "Expert", "category": "tools" },
+    { "name": "System Architecture", "level": "Advanced", "category": "tools" },
+    { "name": "Agile & Scrum", "level": "Expert", "category": "tools" }
+  ]
+}
