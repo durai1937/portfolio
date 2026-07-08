@@ -8,7 +8,7 @@ export default function Hero() {
   const [terminalHistory, setTerminalHistory] = useState<string[]>([
     'System initialization successful.',
     'Establishing secure connection to portfolio database...',
-    'Welcome to Chinna Vance\'s Interactive Space.',
+    'Welcome to Chinna Durai\'s Interactive Space.',
     'Type "help" to see available terminal actions.'
   ]);
   const [terminalInput, setTerminalInput] = useState('');

@@ -45,3 +45,9 @@ export interface DeveloperProfile {
     iconName: string;
   }[];
 }
+
+export interface ContactSection {
+  title: string;
+  description: string;
+}
+

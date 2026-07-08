@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { Mail, MapPin, Send, Sparkles, CheckCircle, Copy, Check, Github, Linkedin, Twitter } from 'lucide-react';
-import { developerProfile } from '../data';
+import { developerProfile, contactSection } from '../data';
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -47,12 +47,40 @@ export default function Contact() {
     setIsSubmitting(true);
     setFormError('');
 
-    // Simulate real database write/network latency
-    setTimeout(() => {
-      setIsSubmitting(false);
-      setSubmitSuccess(true);
-      setFormData({ name: '', email: '', subject: '', message: '' });
-    }, 1200);
+    // Real client-side form submission via FormSubmit (perfect for static GitHub Pages)
+    fetch(`https://formsubmit.co/ajax/${developerProfile.email}`, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'Accept': 'application/json'
+      },
+      body: JSON.stringify({
+        name,
+        email,
+        _subject: `Portfolio Contact: ${subject}`,
+        message
+      })
+    })
+      .then((response) => {
+        if (!response.ok) {
+          throw new Error('Network response was not ok');
+        }
+        return response.json();
+      })
+      .then((data) => {
+        setIsSubmitting(false);
+        if (data.success === 'true' || data.success === true || data.status === 'success') {
+          setSubmitSuccess(true);
+          setFormData({ name: '', email: '', subject: '', message: '' });
+        } else {
+          setFormError(data.message || 'Something went wrong. Please try again.');
+        }
+      })
+      .catch((err) => {
+        setIsSubmitting(false);
+        console.error('Contact Form Error:', err);
+        setFormError('Failed to send message. Please check your network connection, or email me directly at ' + developerProfile.email);
+      });
   };
 
   return (
@@ -96,9 +124,9 @@ export default function Contact() {
           {/* Left Column: Direct channels and info */}
           <div className="lg:col-span-5 space-y-8">
             <div>
-              <h3 className="text-2xl font-bold font-display text-white tracking-tight">Let's discuss your next launch</h3>
+              <h3 className="text-2xl font-bold font-display text-white tracking-tight">{contactSection.title}</h3>
               <p className="text-gray-400 text-sm sm:text-base mt-3 leading-relaxed">
-                Whether you want to build a real-time analytics system, optimize an existing client application, or structure standard deployment planes, feel free to drop a message.
+                {contactSection.description}
               </p>
             </div>
 

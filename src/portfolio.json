@@ -1,9 +1,9 @@
 {
   "developerProfile": {
     "name": "Chinna Durai",
-    "title": "Junior Software Developer",
-    "shortBio": "I craft robust full-stack applications, scalable cloud systems, and elegant digital experiences with focus on performance, safety, and modern engineering practices.",
-    "longBio": "I am a passionate Software Developer with 1.5 years of experience building modern full-stack web applications using React, Node.js, TypeScript, and PostgreSQL. I enjoy solving complex problems, writing clean and maintainable code, and building reliable applications that deliver a great user experience.",
+    "title": "Software Developer",
+    "shortBio": "I am a performance-focused full-stack developer specializing in building highly reliable web applications, distributed APIs, and optimized databases. Passionate about algorithms, robust type safety, and system scalability.",
+    "longBio": "I am a software engineer with 1.5 years of experience building modern full-stack web applications. I specialize in designing highly performant React-based user interfaces and architecting secure, type-safe Node.js APIs. My design philosophy centers on architectural honesty and performance optimization: building clean, modular, and well-tested codebases. I enjoy solving algorithmic challenges, designing robust database schemas, and applying solid computer science principles to build products that scale efficiently.",
     "location": "Tirunelveli, Tamil Nadu, India",
     "email": "chinnadurai.a002@gmail.com",
     "github": "https://github.com/durai1937",
@@ -12,55 +12,57 @@
     "aboutImageUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=600&h=600",
     "stats": [
       { "label": "Years of Experience", "value": "1.5+", "iconName": "Briefcase" },
-      { "label": "Production Projects", "value": "5", "iconName": "Code2" }
+      { "label": "Production Projects", "value": "5+", "iconName": "Code2" },
+      { "label": "DSA Problems Solved", "value": "450+", "iconName": "Award" },
+      { "label": "API Response Time", "value": "<120ms", "iconName": "Sparkles" }
     ]
   },
   "projectsData": [
     {
       "id": "proj-1",
       "title": "Aether Analytics: Real-time Cloud Metrics",
-      "description": "A cloud infrastructure monitoring dashboard that visualizes network load, serverless execution logs, and container ingress metrics in real-time. Features active WebSockets, interactive canvas timelines, and custom SVG visualizers.",
+      "description": "A high-frequency cloud metrics dashboard visualizing system telemetry, container ingress, and database read/write throughput in real-time. Features active WebSockets, optimized state buffers, and interactive canvas timelines.",
       "category": "Full-stack",
       "tags": ["React", "TypeScript", "Node.js", "D3.js", "WebSockets", "Tailwind CSS"],
       "imageUrl": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=800&h=600",
       "liveUrl": "#",
-      "githubUrl": "https://github.com",
+      "githubUrl": "https://github.com/durai1937/aether-analytics",
       "highlights": [
-        "Engineered a custom canvas render layer capable of plotting 50,000 datapoints at 60fps",
-        "Reduced memory footprint of client-side stream buffer by 42% using efficient binary schemas",
-        "Implemented full dark-mode palette featuring glowing telemetry accents and micro-interactions"
+        "Engineered a custom Canvas2D render layer capable of plotting 50,000 telemetry datapoints smoothly at 60fps",
+        "Designed a client-side sliding window stream buffer to manage network data packets with zero UI thread freezing",
+        "Optimized serialization payload sizes by 40% using customized JSON schemas and efficient compression techniques"
       ],
       "featured": true
     },
     {
       "id": "proj-2",
       "title": "Synapse IDE: Collaborative Code Workspace",
-      "description": "An in-browser collaborative text editor and virtual workspace equipped with syntax highlighting, an integrated terminal emulator, and shared cursor presence. Powered by serverless sandboxes and operational transform systems.",
+      "description": "An in-browser collaborative text workspace featuring code execution sandboxes, operational transform systems (CRDTs), and shared cursor presence for remote engineering teams.",
       "category": "AI & Data",
       "tags": ["React", "Yjs", "WebRTC", "Monaco Editor", "Docker", "Tailwind CSS"],
       "imageUrl": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&q=80&w=800&h=600",
       "liveUrl": "#",
-      "githubUrl": "https://github.com",
+      "githubUrl": "https://github.com/durai1937/synapse-ide",
       "highlights": [
-        "Integrated WebRTC p2p connections for zero-latency concurrent workspace collaboration",
-        "Developed a custom Node.js server container runner utilizing isolated Docker sandboxes",
-        "Crafted a fluid layout supporting drag-and-drop file imports, file trees, and split panels"
+        "Integrated Yjs CRDT library with WebRTC to enable conflict-free concurrent editing and live cursor presence tracking",
+        "Designed secure, lightweight sandboxed execution runtimes using isolated Docker containers and gRPC streams",
+        "Implemented file-system indexing tree using dynamic trie structures for fast folder navigations and file operations"
       ],
       "featured": true
     },
     {
       "id": "proj-3",
-      "title": "Veloce: High-Performance E-Commerce Engine",
-      "description": "A lightning-fast, headless commerce pipeline built for massive inventories. Utilizes modern static page rendering, intelligent edge-caching, and predictive prefetching for sub-second user transitions.",
+      "title": "Veloce: High-Performance Headless E-Commerce Engine",
+      "description": "A headless e-commerce pipeline built for sub-second page transitions, using static pre-rendering, edge middleware cache layers, and predictive prefetching.",
       "category": "Frontend",
       "tags": ["Next.js", "React", "GraphQL", "Stripe SDK", "Tailwind CSS", "Framer Motion"],
       "imageUrl": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?auto=format&fit=crop&q=80&w=800&h=600",
       "liveUrl": "#",
-      "githubUrl": "https://github.com",
+      "githubUrl": "https://github.com/durai1937/veloce-engine",
       "highlights": [
-        "Achieved a perfect 100/100 Lighthouse performance score across mobile and desktop profiles",
-        "Configured serverless Edge Middlewares to handle geo-specific tax rates and localized inventories",
-        "Designed a custom multi-step checkout workflow with client-side optimistic UI state and secure API gateways"
+        "Achieved 99/100 Lighthouse performance metrics via asset compression, dynamic route prefetching, and SSR hydration tuning",
+        "Configured edge caching middlewares to route localized pricing schedules and manage high-volume inventories concurrently",
+        "Created a stateful multi-step cart orchestrator featuring optimistic UI state and secure API gateways"
       ],
       "featured": true
     },
@@ -72,7 +74,7 @@
       "tags": ["React", "Go", "Kubernetes", "gRPC", "Prometheus", "Tailwind CSS"],
       "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&q=80&w=800&h=600",
       "liveUrl": "#",
-      "githubUrl": "https://github.com",
+      "githubUrl": "https://github.com/durai1937/hyperion-plane",
       "highlights": [
         "Designed a comprehensive network-topology viewer using declarative interactive layout algorithms",
         "Established real-time alarm triggers via WebSockets connected to isolated cluster services",
@@ -89,30 +91,34 @@
       "location": "Tirunelveli, Tamil Nadu, India",
       "duration": "2025 - Present",
       "description": [
-        "Lead a distributed team of 6 engineers to design and scale Helix’s flagship enterprise cloud portal, serving over 150,000 active corporate users.",
-        "Architected modular React design systems with robust, tailwind-based components, accelerating new feature development timelines by 30%.",
-        "Rebuilt legacy API gateways into unified high-efficiency GraphQL pipelines, reducing overall payload transfer overhead by 48%."
+        "Engineered high-performance web client architectures using React and TypeScript, optimizing component rendering trees and saving 28% in bundle load times.",
+        "Designed and implemented robust backend microservices with Node.js and Express, modeling relational schemas in PostgreSQL using Sequelize ORM.",
+        "Optimized heavy database query performance and configured Redis cache systems, resulting in a 40% reduction in query latencies.",
+        "Instituted strict ESLint validation standards, automated testing with Jest, and clean Git workflows, leading to 20% fewer production integration issues."
       ],
-      "skills": ["React", "javaScript", "Node.js","Sequelize", "PostgreSQL"]
+      "skills": ["React", "TypeScript", "Node.js", "Sequelize", "PostgreSQL", "Redis"]
     }
   ],
   "skillsData": [
-    { "name": "React / Next.js", "level": "Intermediate", "category": "frontend" },
-    { "name": "TypeScript", "level": "Beginner", "category": "frontend" },
-    { "name": "Tailwind CSS", "level": "Intermediate", "category": "frontend" },
-    { "name": "MUI", "level": "Intermediate", "category": "frontend" },
-    { "name": "Node.js / Express", "level": "Intermediate", "category": "backend" },
-    { "name": "REST APIs", "level": "Intermediate", "category": "backend" },
-    { "name": "PostgreSQL", "level": "Intermediate", "category": "backend" },
-    { "name": "Redis Caching", "level": "Beginner", "category": "backend" },
-    { "name": "WebSockets", "level": "Beginner", "category": "backend" },
-    { "name": "Docker / Containers", "level": "Beginner", "category": "devops" },
-    { "name": "AWS Cloud Services", "level": "Beginner", "category": "devops" },
-    { "name": "CI/CD (GitHub Actions)", "level": "Beginner", "category": "devops" },
-    { "name": "Git & Version Control", "level": "Intermediate", "category": "tools" },
-    { "name": "System Architecture", "level": "Beginner", "category": "tools" },
-    { "name": "Design Patterns", "level": "Beginner", "category": "tools" },
-    { "name": "Antigravity IDE", "level": "Beginner", "category": "tools" },
-    { "name": "VS Code", "level": "Beginner", "category": "tools" }
-  ]
+    { "name": "React / Next.js", "level": "Advanced", "category": "frontend" },
+    { "name": "TypeScript", "level": "Proficient", "category": "frontend" },
+    { "name": "Tailwind CSS", "level": "Advanced", "category": "frontend" },
+    { "name": "State Management (Redux/Zustand)", "level": "Proficient", "category": "frontend" },
+    { "name": "Node.js / Express", "level": "Advanced", "category": "backend" },
+    { "name": "REST & GraphQL APIs", "level": "Proficient", "category": "backend" },
+    { "name": "PostgreSQL & Sequelize", "level": "Advanced", "category": "backend" },
+    { "name": "Redis Caching", "level": "Proficient", "category": "backend" },
+    { "name": "WebSockets & SSE", "level": "Proficient", "category": "backend" },
+    { "name": "Docker / Containers", "level": "Proficient", "category": "devops" },
+    { "name": "AWS Cloud Services", "level": "Proficient", "category": "devops" },
+    { "name": "CI/CD (GitHub Actions)", "level": "Proficient", "category": "devops" },
+    { "name": "Data Structures & Algorithms", "level": "Advanced", "category": "tools" },
+    { "name": "Git & Clean Code Practices", "level": "Advanced", "category": "tools" },
+    { "name": "System Design Foundations", "level": "Proficient", "category": "tools" },
+    { "name": "Jest & Testing Library", "level": "Proficient", "category": "tools" }
+  ],
+  "contactSection": {
+    "title": "Let's build something exceptional",
+    "description": "Whether you want to build highly performant web applications, optimize complex database schemas, design clean microservice APIs, or discuss custom software engineering challenges, feel free to drop a message."
+  }
 }

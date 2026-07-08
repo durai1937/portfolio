@@ -30,11 +30,6 @@ export default function Footer() {
         {/* Copy block */}
         <div className="flex flex-col items-center md:items-start text-xs text-gray-500 font-mono space-y-1.5 order-3 md:order-2">
           <p>© {currentYear} {developerProfile.name}. All rights reserved.</p>
-          <p className="flex items-center space-x-1 justify-center md:justify-start">
-            <span>Crafted with</span>
-            <Heart size={10} className="text-emerald-500 fill-emerald-500 animate-pulse" />
-            <span>in React & Tailwind CSS</span>
-          </p>
         </div>
 
         {/* Back to top button */}
