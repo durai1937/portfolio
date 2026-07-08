@@ -89,7 +89,7 @@ export default function About() {
               viewport={{ once: true, margin: '-100px' }}
               className="text-2xl font-bold font-display text-white tracking-tight"
             >
-              Architecting clean software with a design-first focus
+              Building clean software with a design-first mindset.
             </motion.h3>
 
             <motion.p

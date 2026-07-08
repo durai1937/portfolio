@@ -8,13 +8,13 @@ export default function Hero() {
   const [terminalHistory, setTerminalHistory] = useState<string[]>([
     'System initialization successful.',
     'Establishing secure connection to portfolio database...',
-    'Welcome to Marcus Vance\'s Interactive Space.',
+    'Welcome to Chinna Vance\'s Interactive Space.',
     'Type "help" to see available terminal actions.'
   ]);
   const [terminalInput, setTerminalInput] = useState('');
   const historyEndRef = useRef<HTMLDivElement>(null);
 
-  const fullHeadline = 'Building systems that scale. Designing experiences that connect.';
+  const fullHeadline = 'Building reliable software. Creating meaningful experiences.';
 
   useEffect(() => {
     let index = 0;
@@ -63,7 +63,7 @@ export default function Hero() {
         break;
     }
 
-    setTerminalHistory((prev) => [...prev, `marcus@portfolio:~$ ${terminalInput}`, response]);
+    setTerminalHistory((prev) => [...prev, `chinna@portfolio:~$ ${terminalInput}`, response]);
     setTerminalInput('');
   };
 
@@ -228,7 +228,7 @@ export default function Hero() {
             onSubmit={handleTerminalSubmit}
             className="p-3 bg-[#0a0f1d] border-t border-gray-800/60 flex items-center space-x-2 font-mono text-xs"
           >
-            <span className="text-emerald-400 font-bold shrink-0">marcus@portfolio:~$</span>
+            <span className="text-emerald-400 font-bold shrink-0">chinna@portfolio:~$</span>
             <input
               id="terminal-interactive-input"
               type="text"

@@ -1,21 +1,18 @@
 {
   "developerProfile": {
     "name": "Chinna Durai",
-    "title": "Senior Full-Stack Engineer & Architect",
+    "title": "Junior Software Developer",
     "shortBio": "I craft robust full-stack applications, scalable cloud systems, and elegant digital experiences with focus on performance, safety, and modern engineering practices.",
-    "longBio": "I am a passionate software developer and solutions architect with over 8 years of professional experience building cloud-native applications. I specialize in designing highly performant React-based user interfaces and architecting secure Node.js microservices. My design philosophy is rooted in architectural honesty: creating clean, modular code bases that represent real-world reliability, without over-complicating workflows. I love turning complex logic into smooth, responsive, and accessible digital products.",
-    "location": "San Francisco, CA (Open to Remote)",
-    "email": "cmdurai1937@gmail.com",
+    "longBio": "I am a passionate Software Developer with 1.5 years of experience building modern full-stack web applications using React, Node.js, TypeScript, and PostgreSQL. I enjoy solving complex problems, writing clean and maintainable code, and building reliable applications that deliver a great user experience.",
+    "location": "Tirunelveli, Tamil Nadu, India",
+    "email": "chinnadurai.a002@gmail.com",
     "github": "https://github.com/durai1937",
     "linkedin": "https://www.linkedin.com/in/chinna-durai-7b31111a3/",
-    "twitter": "https://twitter.com",
     "resumeUrl": "#",
     "aboutImageUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=600&h=600",
     "stats": [
-      { "label": "Years of Experience", "value": "8+", "iconName": "Briefcase" },
-      { "label": "Production Projects", "value": "34", "iconName": "Code2" },
-      { "label": "Open Source Contribs", "value": "500+", "iconName": "GitFork" },
-      { "label": "Happy Clients", "value": "18", "iconName": "Award" }
+      { "label": "Years of Experience", "value": "1.5+", "iconName": "Briefcase" },
+      { "label": "Production Projects", "value": "5", "iconName": "Code2" }
     ]
   },
   "projectsData": [
@@ -87,62 +84,35 @@
   "experienceData": [
     {
       "id": "exp-1",
-      "role": "Lead Full-Stack Engineer",
-      "company": "Helix Cloud Solutions",
-      "location": "San Francisco, CA",
-      "duration": "2023 - Present",
+      "role": "Software Developer",
+      "company": "6 Solve it services pvt. ltd",
+      "location": "Tirunelveli, Tamil Nadu, India",
+      "duration": "2025 - Present",
       "description": [
         "Lead a distributed team of 6 engineers to design and scale Helix’s flagship enterprise cloud portal, serving over 150,000 active corporate users.",
         "Architected modular React design systems with robust, tailwind-based components, accelerating new feature development timelines by 30%.",
         "Rebuilt legacy API gateways into unified high-efficiency GraphQL pipelines, reducing overall payload transfer overhead by 48%."
       ],
-      "skills": ["React", "TypeScript", "Node.js", "GraphQL", "AWS", "Docker", "CI/CD Pipelines"]
-    },
-    {
-      "id": "exp-2",
-      "role": "Senior Software Developer",
-      "company": "Aura Interactive",
-      "location": "Remote, CA",
-      "duration": "2020 - 2023",
-      "description": [
-        "Spearheaded the optimization of complex React canvas editors, yielding a massive performance improvement (from 24 FPS up to 60 FPS under high workloads).",
-        "Collaborated closely with visual designers to execute complex motion flows, UI transitions, and micro-interactions with pristine responsive fidelity.",
-        "Designed and engineered serverless backend microservices that parsed and processed millions of event logs per day using key-value cache strategies."
-      ],
-      "skills": ["React", "Framer Motion", "WebSockets", "Redis", "Express", "Jest", "Tailwind CSS"]
-    },
-    {
-      "id": "exp-3",
-      "role": "Software Engineer",
-      "company": "PixelForge Studios",
-      "location": "Austin, TX",
-      "duration": "2018 - 2020",
-      "description": [
-        "Developed responsive client applications, customer dashboards, and marketing engines using React, Redux, and modern CSS-in-JS frameworks.",
-        "Authored unit, integration, and end-to-end test suites using Jest and Cypress, raising total code coverage from 45% up to a stable 85%.",
-        "Maintained deployment playbooks, transitioning manual server architectures into automated Docker and Kubernetes setups."
-      ],
-      "skills": ["React", "Redux", "SASS", "Node.js", "PostgreSQL", "Docker", "Git & CI/CD"]
+      "skills": ["React", "javaScript", "Node.js","Sequelize", "PostgreSQL"]
     }
   ],
   "skillsData": [
-    { "name": "React / Next.js", "level": "Expert", "category": "frontend" },
-    { "name": "TypeScript", "level": "Expert", "category": "frontend" },
-    { "name": "Tailwind CSS", "level": "Expert", "category": "frontend" },
-    { "name": "Framer Motion / Animations", "level": "Expert", "category": "frontend" },
-    { "name": "D3.js / Canvas API", "level": "Advanced", "category": "frontend" },
-    { "name": "Node.js / Express", "level": "Expert", "category": "backend" },
-    { "name": "GraphQL / REST APIs", "level": "Expert", "category": "backend" },
-    { "name": "PostgreSQL / SQL", "level": "Advanced", "category": "backend" },
-    { "name": "Redis Caching", "level": "Advanced", "category": "backend" },
-    { "name": "WebSockets", "level": "Advanced", "category": "backend" },
-    { "name": "Docker / Containers", "level": "Expert", "category": "devops" },
-    { "name": "AWS Cloud Services", "level": "Advanced", "category": "devops" },
-    { "name": "CI/CD (GitHub Actions)", "level": "Advanced", "category": "devops" },
-    { "name": "Kubernetes", "level": "Intermediate", "category": "devops" },
-    { "name": "Git & Version Control", "level": "Expert", "category": "tools" },
-    { "name": "Jest / Testing Library", "level": "Expert", "category": "tools" },
-    { "name": "System Architecture", "level": "Advanced", "category": "tools" },
-    { "name": "Agile & Scrum", "level": "Expert", "category": "tools" }
+    { "name": "React / Next.js", "level": "Intermediate", "category": "frontend" },
+    { "name": "TypeScript", "level": "Beginner", "category": "frontend" },
+    { "name": "Tailwind CSS", "level": "Intermediate", "category": "frontend" },
+    { "name": "MUI", "level": "Intermediate", "category": "frontend" },
+    { "name": "Node.js / Express", "level": "Intermediate", "category": "backend" },
+    { "name": "REST APIs", "level": "Intermediate", "category": "backend" },
+    { "name": "PostgreSQL", "level": "Intermediate", "category": "backend" },
+    { "name": "Redis Caching", "level": "Beginner", "category": "backend" },
+    { "name": "WebSockets", "level": "Beginner", "category": "backend" },
+    { "name": "Docker / Containers", "level": "Beginner", "category": "devops" },
+    { "name": "AWS Cloud Services", "level": "Beginner", "category": "devops" },
+    { "name": "CI/CD (GitHub Actions)", "level": "Beginner", "category": "devops" },
+    { "name": "Git & Version Control", "level": "Intermediate", "category": "tools" },
+    { "name": "System Architecture", "level": "Beginner", "category": "tools" },
+    { "name": "Design Patterns", "level": "Beginner", "category": "tools" },
+    { "name": "Antigravity IDE", "level": "Beginner", "category": "tools" },
+    { "name": "VS Code", "level": "Beginner", "category": "tools" }
   ]
 }

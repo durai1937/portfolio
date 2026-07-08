@@ -127,7 +127,7 @@ export default function Contact() {
                   <MapPin size={20} />
                 </div>
                 <div>
-                  <h4 className="text-xs font-mono font-semibold tracking-wider text-gray-500 uppercase">Headquarters</h4>
+                  <h4 className="text-xs font-mono font-semibold tracking-wider text-gray-500 uppercase">Location</h4>
                   <p className="text-sm sm:text-base font-semibold text-white mt-1">{developerProfile.location}</p>
                 </div>
               </div>
@@ -156,16 +156,6 @@ export default function Contact() {
                   aria-label="LinkedIn Profile"
                 >
                   <Linkedin size={20} />
-                </a>
-                <a
-                  id="contact-social-twitter"
-                  href={developerProfile.twitter}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="p-3 bg-gray-950/40 border border-gray-800 hover:border-emerald-500/40 hover:bg-emerald-500/5 hover:text-emerald-400 text-gray-400 rounded-xl transition-all duration-300"
-                  aria-label="Twitter Profile"
-                >
-                  <Twitter size={20} />
                 </a>
               </div>
             </div>
@@ -230,7 +220,7 @@ export default function Contact() {
                       value={formData.message}
                       onChange={handleInputChange}
                       rows={5}
-                      placeholder="Hi Marcus, let's discuss building a scalable Cloud architecture..."
+                      placeholder="Hi Chinna, let's discuss building a scalable Cloud architecture..."
                       className="w-full px-4 py-3 bg-gray-950/80 border border-gray-800 rounded-xl text-white focus:outline-none focus:border-emerald-500 transition-colors placeholder-gray-600 text-sm font-sans resize-none"
                     />
                   </div>
